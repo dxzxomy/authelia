@@ -49,7 +49,7 @@ func getBuild(branch, buildNumber, extra string) (b *Build, err error) {
 	if b.Commit, _, err = utils.RunCommandAndReturnOutput("git rev-parse HEAD"); err != nil {
 		return nil, fmt.Errorf("error getting commit with git rev-parse: %w", err)
 	}
-
+ 
 	if gitTagCommit == b.Commit {
 		b.Tagged = true
 	}
