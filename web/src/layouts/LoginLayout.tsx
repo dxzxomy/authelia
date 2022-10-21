@@ -59,9 +59,9 @@ const LoginLayout = function (props: Props) {
                     {props.showBrand ? (
                         <Grid item xs={12}>
                             银河信息化提供支持
-                            {/*<Link href={url} target="_blank" underline="hover" className={styles.poweredBy}>*/}
-                            {/*    {translate("Powered by")} Authelia*/}
-                            {/*</Link>*/}
+                            <Link href={url} target="_blank" underline="hover" className={styles.poweredBy}>
+                                银河信息化提供支持
+                            </Link>
                         </Grid>
                     ) : null}
                 </Grid>
