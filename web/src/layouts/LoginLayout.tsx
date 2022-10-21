@@ -58,7 +58,6 @@ const LoginLayout = function (props: Props) {
                     </Grid>
                     {props.showBrand ? (
                         <Grid item xs={12}>
-                            银河信息化提供支持
                             <Link href={url} target="_blank" underline="hover" className={styles.poweredBy}>
                                 银河信息化提供支持
                             </Link>
